@@ -13,7 +13,7 @@ const Home: NextPage = () => {
             <div className='h-10'>  </div>
             <div
                 style={{marginLeft: "-1rem", marginRight: "-1rem"}}
-                className='p-4 mt-4 bg-gray-400 dark:bg-black flex-grow'>
+                className='p-4 mt-4 bg-gray-400 dark:bg-black rounded-b-xl flex-grow'>
                 <h6 className='my-1 tracking-wide font-bold'>What i offer</h6>
                 <motion.div className='grid lg:grid-cols-2 gap-6' variants={stagger} initial="initial" animate='animate'>
                     {Services?.map(service => (

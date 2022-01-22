@@ -12,11 +12,18 @@ const Sidebar = () => {
     }
   return (
      <>
-        <div className=''>
+        <div>
             <div className='h-28 flex flex-col justify-center'>
                 <p>Giorgi</p>
                 <p>Mosemgvdlishvili</p>
             </div>
+            {/*<a aria-label="assets"*/}
+            {/*   href="/assetes/giorgi_mosemgvdlishvili.pdf"*/}
+            {/*   download="giorgi_mosemgvdlishvili.pdf"*/}
+            {/*   className='flex justify-center p-1 my-2 rounded-2xl bg-gray-200 dark:bg-gray-700 cursor-pointer '>*/}
+            {/*    <GiTie  className='w-[24px] h-[24px] text-green-400 '/>*/}
+            {/*    <span>Download Resume</span>*/}
+            {/*</a>*/}
             <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-gray-600 '>Web Developer</p>
             <div className='flex justify-around my-5 text-green-500 w-9/12 md:w-full'>
                 <Link href=''  >
