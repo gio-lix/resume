@@ -32,17 +32,17 @@ export const Languages = [
 
     {
         name: 'Next.JS',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
         name: 'react.JS',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
         name: 'Typescript',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
@@ -52,7 +52,7 @@ export const Languages = [
     },
     {
         name: 'Html',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
@@ -62,22 +62,22 @@ export const Languages = [
     },
     {
         name: 'Strapi',
-        level: '50%',
+        level: '30%',
         Icon: BsCircle
     },
     {
         name: 'CSS',
-        level: '95%',
+        level: '80%',
         Icon: BsCircle
     },
     {
         name: 'Sass/Scss',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
         name: 'tailwind',
-        level: '95%',
+        level: '80%',
         Icon: BsCircle
     },
 
@@ -86,12 +86,12 @@ export const Languages = [
 export const Tools = [
     {
         name: 'SEO',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
         name: 'JWT',
-        level: '90%',
+        level: '80%',
         Icon: BsCircle
     },
     {
@@ -106,17 +106,17 @@ export const Tools = [
     },
     {
         name: 'Heroku',
-        level: '95%',
+        level: '80%',
         Icon: BsCircle
     },
     {
         name: 'Firebase',
-        level: '60%',
+        level: '70%',
         Icon: BsCircle
     },
     {
         name: 'Git/Github',
-        level: '85%',
+        level: '80%',
         Icon: BsCircle
     },
 ]
@@ -146,7 +146,7 @@ export const Projects = [
         id: 3,
         name: 'commercial-typescrip',
         description: 'This content ',
-        image_url: "/images/geo.jpg",
+        image_url: "/images/comm.jpg",
         deploy_url: 'https://commercial-app-typescript.vercel.app',
         github_url: 'https://github.com/gio-lix/commercial-app-typescript.git',
         key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],

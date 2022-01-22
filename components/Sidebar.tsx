@@ -18,11 +18,6 @@ const Sidebar = () => {
                 <p>Mosemgvdlishvili</p>
             </div>
             <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-gray-600 '>Web Developer</p>
-            <Link href=''  >
-                <a download='name' className='flex justify-center items-center px-2 py-1 my-3 dark:bg-gray-600 bg-gray-200 '>
-                    <GiTie className='w-6 h-6' /> Download Resume
-                </a>
-            </Link>
             <div className='flex justify-around my-5 text-green-500 w-9/12 md:w-full'>
                 <Link href=''  >
                     <a download='name' className='flex items-center'>
