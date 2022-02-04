@@ -152,6 +152,16 @@ export const Projects = [
         key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
         category: ['next', "Redux", "Redux-Saga"]
     },
+     {
+        id: 4,
+        name: 'graphql-commercial',
+        description: 'This content ',
+        image_url: "/images/comm.jpg",
+        deploy_url: 'https://eccom-geaphql.vercel.app',
+        github_url: 'https://github.com/gio-lix/eccom-geaphql.git',
+        key_techs: ['strapi', 'apollo-client', 'next.js', 'tailwind'],
+        category: ['graphql', "apollo-clien", "next.js"]
+    },
 ]
 
 export const Categories = "Next"|"React"|"Strapi"|"Node"
