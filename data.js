@@ -156,7 +156,7 @@ export const Projects = [
         id: 4,
         name: 'graphql-commercial',
         description: 'This content ',
-        image_url: "/images/comm.jpg",
+        image_url: "/images/store.webp",
         deploy_url: 'https://eccom-geaphql.vercel.app',
         github_url: 'https://github.com/gio-lix/eccom-geaphql.git',
         key_techs: ['strapi', 'apollo-client', 'next.js', 'tailwind'],
