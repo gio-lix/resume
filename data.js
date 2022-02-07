@@ -123,7 +123,7 @@ export const Tools = [
 
 export const Projects = [
     {
-        id: 1,
+        id: 4,
         name: 'gothic shop',
         description: 'this project ',
         image_url: "/images/goth.jpg",
@@ -153,7 +153,7 @@ export const Projects = [
         category: ['next', "Redux", "Redux-Saga"]
     },
      {
-        id: 4,
+        id: 1,
         name: 'graphql-commercial',
         description: 'This content ',
         image_url: "/images/apparel.jpg",
