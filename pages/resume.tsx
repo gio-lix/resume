@@ -16,7 +16,7 @@ const Resume = () => {
                     <h5 className='my-3 text-2xl font-bold'>Education</h5>
                     <div>
                         <h5  className='my-2 text-xl font-semibold'>Computer Science Engineering</h5>
-                        <p  className='my-2 text-xl font-semibold'>GAU / GEOLAB (2020-2021)</p>
+                        <p  className='my-2 text-xl font-semibold'>GAU / GEOLAB </p>
                     </div>
                 </motion.div>
             </div>
