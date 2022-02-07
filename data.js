@@ -122,15 +122,15 @@ export const Tools = [
 ]
 
 export const Projects = [
-    {
-        id: 4,
-        name: 'gothic shop',
-        description: 'this project ',
-        image_url: "/images/goth.jpg",
-        deploy_url: 'https://gothicshop123.vercel.app',
-        github_url: 'https://github.com/gio-lix/gothicshop123.git',
-        key_techs: ['Strapi', 'next.js', 'tailwind'],
-        category: ['react', "strapi"]
+      {
+        id: 1,
+        name: 'graphql-commercial',
+        description: 'This content ',
+        image_url: "/images/apparel.jpg",
+        deploy_url: 'https://eccom-geaphql.vercel.app',
+        github_url: 'https://github.com/gio-lix/eccom-geaphql.git',
+        key_techs: ['strapi', 'apollo-client', 'next.js', 'tailwind'],
+        category: ['graphql', "apollo-clien", "next.js"]
     },
     {
         id: 2,
@@ -152,16 +152,17 @@ export const Projects = [
         key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
         category: ['next', "Redux", "Redux-Saga"]
     },
-     {
-        id: 1,
-        name: 'graphql-commercial',
-        description: 'This content ',
-        image_url: "/images/apparel.jpg",
-        deploy_url: 'https://eccom-geaphql.vercel.app',
-        github_url: 'https://github.com/gio-lix/eccom-geaphql.git',
-        key_techs: ['strapi', 'apollo-client', 'next.js', 'tailwind'],
-        category: ['graphql', "apollo-clien", "next.js"]
-    },
+      {
+        id: 4,
+        name: 'gothic shop',
+        description: 'this project ',
+        image_url: "/images/goth.jpg",
+        deploy_url: 'https://gothicshop123.vercel.app',
+        github_url: 'https://github.com/gio-lix/gothicshop123.git',
+        key_techs: ['Strapi', 'next.js', 'tailwind'],
+        category: ['react', "strapi"]
+    }
+   
 ]
 
 export const Categories = "Next"|"React"|"Strapi"|"Node"
