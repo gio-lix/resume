@@ -56,11 +56,6 @@ export const Languages = [
         Icon: BsCircle
     },
     {
-        name: 'Nest.JS',
-        level: '30%',
-        Icon: BsCircle
-    },
-    {
         name: 'Strapi',
         level: '30%',
         Icon: BsCircle
@@ -87,6 +82,11 @@ export const Tools = [
     {
         name: 'SEO',
         level: '80%',
+        Icon: BsCircle
+    },
+      {
+        name: 'graphql',
+        level: '70%',
         Icon: BsCircle
     },
     {
@@ -125,12 +125,12 @@ export const Projects = [
       {
         id: 1,
         name: 'graphql-commercial',
-        description: 'This content ',
+        description: 'eccom-graphql content ',
         image_url: "/images/apparel.jpg",
         deploy_url: 'https://eccom-geaphql.vercel.app',
         github_url: 'https://github.com/gio-lix/eccom-geaphql.git',
         key_techs: ['strapi', 'apollo-client', 'next.js', 'tailwind'],
-        category: ['graphql', "apollo-clien", "next.js"]
+        category: ['strapi', 'graphql', "apollo-clien", "next.js"]
     },
     {
         id: 2,
