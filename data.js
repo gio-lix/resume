@@ -134,16 +134,6 @@ export const Projects = [
     },
     {
         id: 2,
-        name: 'geo-Journal-typescript',
-        description: 'This content ',
-        image_url: "/images/geo.jpg",
-        deploy_url: 'https://geo-journal-typescript.vercel.app',
-        github_url: 'https://github.com/gio-lix/geo-journal-typescript',
-        key_techs: ['next.js', 'tailwind'],
-        category: ['react', "nest"]
-    },
-    {
-        id: 3,
         name: 'commercial-typescrip',
         description: 'This content ',
         image_url: "/images/comm.jpg",
@@ -151,6 +141,16 @@ export const Projects = [
         github_url: 'https://github.com/gio-lix/commercial-app-typescript.git',
         key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
         category: ['next', "Redux", "Redux-Saga"]
+    },
+    {
+        id: 3,
+        name: 'Filter-State',
+        description: 'filter function ',
+        image_url: "/images/state.webp",
+        deploy_url: 'https://filter-data.vercel.app',
+        github_url: 'https://github.com/gio-lix/filterData',
+        key_techs: ['next.js', 'tailwind'],
+        category: ['react']
     },
       {
         id: 4,
@@ -161,6 +161,16 @@ export const Projects = [
         github_url: 'https://github.com/gio-lix/gothicshop123.git',
         key_techs: ['Strapi', 'next.js', 'tailwind'],
         category: ['react', "strapi"]
+    },
+      {
+        id: 5,
+        name: 'geo-Journal-typescript',
+        description: 'This content ',
+        image_url: "/images/geo.jpg",
+        deploy_url: 'https://geo-journal-typescript.vercel.app',
+        github_url: 'https://github.com/gio-lix/geo-journal-typescript',
+        key_techs: ['next.js', 'tailwind'],
+        category: ['react', "nest"]
     }
    
 ]
