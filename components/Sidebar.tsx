@@ -17,15 +17,8 @@ const Sidebar = () => {
                 <p>Giorgi</p>
                 <p>Mosemgvdlishvili</p>
             </div>
-            {/*<a aria-label="assets"*/}
-            {/*   href="/assetes/giorgi_mosemgvdlishvili.pdf"*/}
-            {/*   download="giorgi_mosemgvdlishvili.pdf"*/}
-            {/*   className='flex justify-center p-1 my-2 rounded-2xl bg-gray-200 dark:bg-gray-700 cursor-pointer '>*/}
-            {/*    <GiTie  className='w-[24px] h-[24px] text-green-400 '/>*/}
-            {/*    <span>Download Resume</span>*/}
-            {/*</a>*/}
             <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-gray-600 '>Web Developer</p>
-            <div className='flex justify-around my-5 text-green-500 w-9/12 md:w-full'>
+            <div className='flex justify-around my-5 text-green-300 w-9/12 md:w-full'>
                 <Link href=''  >
                     <a download='name' className='flex items-center'>
                         <AiFillGithub className='w-6 h-6' />
@@ -46,10 +39,10 @@ const Sidebar = () => {
                 <p className='TEL: my-2 text-sm'>599 552864</p>
             </div>
             <div className='flex flex-col items-center my-4'>
-                <button className='  bg-green-400 w-8/12 rounded-full py-1 px-5 text-white my-2'
+                <button className='  bg-green-600 w-8/12 rounded-full py-1 px-5 text-white my-2'
                         onClick={() => window.open('mailto:gmosemgvdlishvili888@gmail.com')}
                 >Email Me</button>
-                <button onClick={changeTheme} className='bg-green-400 w-8/12 rounded-full py-1 px-5 text-white my-2 whitespace-nowrap'>Toggle Theme</button>
+                <button onClick={changeTheme} className='bg-green-600 w-8/12 rounded-full py-1 px-5 text-white my-2 whitespace-nowrap'>Toggle Theme</button>
             </div>
         </div>
      </>

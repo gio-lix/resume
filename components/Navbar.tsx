@@ -31,12 +31,12 @@ const Navbar = () => {
     }, [])
     return (
      <>
-        <div className='flex justify-between px-5 py-3 my-3'>
-            <span className='font-bold text-green-400  text-lg border-b-4'>{active}</span>
+        <div className='flex justify-between px-5 py-3 my-3 '>
+            <span className='font-bold text-green-400   text-lg border-b-4'>{active}</span>
             <div className='font-lg flex space-x-4'>
-                <NavItem active={active} setActive={setActive} name='about' route='/' />
-                <NavItem active={active} setActive={setActive} name='projects' route='/projects' />
-                <NavItem active={active} setActive={setActive} name='resume' route='/resume' />
+                <NavItem active={active} setActive={setActive} name='About' route='/' />
+                <NavItem active={active} setActive={setActive} name='Projects' route='/projects' />
+                <NavItem active={active} setActive={setActive} name='Resume' route='/resume' />
             </div>
         </div>
      </>

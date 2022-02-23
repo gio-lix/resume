@@ -26,7 +26,7 @@ const Projects = () => {
         <motion.div variants={routeAnimation}
                     initial="initial"
                     animate="animate"
-                    exit="exit" className='py-2 px-5 overflow-y-scroll scrollbar-hide ' style={{height: '60vh'}}>
+                    exit="exit" className='py-2 px-5 overflow-y-scroll scrollbar-hide border-t-8 border-dark-500' style={{height: '70vh'}}>
             <nav>
                 <ProjectsNavbar handleFilterCategory={handleFilterCategory} active={active}/>
             </nav>

@@ -25,7 +25,7 @@ const Bar: FC<{data:ISkill }> = ({data: {level,name,Icon}}) => {
                 variants={variants}
                 initial="initial"
                 animate="animate"
-                className="px-4 py-1 flex items-center rounded-full bg-green-400">
+                className="px-4 py-1 flex items-center rounded-full bg-green-600">
 
                 <Icon className='mr-3'/> {name}
             </motion.div>
