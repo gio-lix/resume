@@ -162,16 +162,16 @@ export const Projects = [
         key_techs: ['Strapi', 'next.js', 'tailwind'],
         category: ['react', "strapi"]
     },
-//           {
-//         id: 5,
-//         name: 'shop_B',
-//         description: 'shoppin with graphql',
-//         image_url: "/images/store-g27e66c331_1920.jpg",
-//         deploy_url: 'https://react-app-toolkit-graphql.vercel.app/all',
-//         github_url: 'https://github.com/gio-lix/react-app-toolkit-graphql.git',
-//         key_techs: ['react', 'graphql', 'tailwind'],
-//         category: ['react', "graphql"]
-//     },
+          {
+        id: 5,
+        name: 'shop_B',
+        description: 'shoppin with graphql',
+        image_url: "/images/store-g27e66c331_1920.jpg",
+        deploy_url: 'https://react-app-toolkit-graphql.vercel.app/all',
+        github_url: 'https://github.com/gio-lix/react-app-toolkit-graphql.git',
+        key_techs: ['react', 'graphql', 'tailwind'],
+        category: ['react', "graphql"]
+    },
       {
         id: 6,
         name: 'geo-Journal-typescript',
