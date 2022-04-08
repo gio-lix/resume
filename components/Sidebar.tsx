@@ -35,12 +35,12 @@ const Sidebar = () => {
                     <GoLocation />
                     <span>Tbilisi, Georgia</span>
                 </div>
-                <p className='my-2 text-sm'>gmosemgvdlishvili888@gmail.com</p>
-                <p className='TEL: my-2 text-sm'>599 552864</p>
+                <p className='my-2 text-sm'>gmosemgvdlishvili28@gmail.com</p>
+                <p className='TEL: my-2 text-sm'>+995 595 55 28 64</p>
             </div>
             <div className='flex flex-col items-center my-4'>
                 <button className='  bg-green-600 w-8/12 rounded-full py-1 px-5 text-white my-2'
-                        onClick={() => window.open('mailto:gmosemgvdlishvili888@gmail.com')}
+                        onClick={() => window.open('mailto:gmosemgvdlishvili28@gmail.com')}
                 >Email Me</button>
                 <button onClick={changeTheme} className='bg-green-600 w-8/12 rounded-full py-1 px-5 text-white my-2 whitespace-nowrap'>Toggle Theme</button>
             </div>
