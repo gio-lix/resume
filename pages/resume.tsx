@@ -15,8 +15,8 @@ const Resume = () => {
                 <motion.div variants={fadeInUp} initial="initial" animate="animate">
                     <h5 className='my-3 text-2xl font-bold'>Education</h5>
                     <div>
-                        <h5  className='my-2 text-xl font-semibold'>Computer Science Engineering</h5>
-                        <p  className='my-2 text-xl font-semibold'>GAU / GEOLAB </p>
+                        <h5  className='my-2 text-xl font-semibold'>ACADEMY OF DIGITAL INDUSTRIES: Node.JS</h5>
+                        <p  className='my-2 text-xl font-semibold'>GAU / GEOLAB: Javascript/React.JS </p>
                     </div>
                 </motion.div>
             </div>
