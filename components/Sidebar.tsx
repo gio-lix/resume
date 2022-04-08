@@ -19,12 +19,12 @@ const Sidebar = () => {
             </div>
             <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-gray-600 '>Web Developer</p>
             <div className='flex justify-around my-5 text-green-300 w-9/12 md:w-full'>
-                <Link href=''  >
+                <Link href='https://github.com/gio-lix'  >
                     <a download='name' className='flex items-center'>
                         <AiFillGithub className='w-6 h-6' />
                     </a>
                 </Link>
-                <Link href='' >
+                <Link href='https://www.linkedin.com/in/gio-mosemgvdlishvili-757b42106' >
                     <a>
                         <AiFillLinkedin className='w-6 h-6' />
                     </a>
