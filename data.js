@@ -8,17 +8,17 @@ import {BsCircle} from "react-icons/bs";
 export const Services = [
     {
         title: 'frontend developer',
-        about: 'Javascript, React.js, Next.JS, Redux, Redux-Saga, Redux-Toolkit, Typescript, React-hook-Form, Git, Github, JWT, SEO, axios, Heroku, Firebase, Vercel ',
+        about: 'Javascript, React.js, Next.JS, Redux, Redux-Saga, Redux-Toolkit,Typescript, Graphql, Git, Github, JWT, SEO, axios, Heroku, Firebase, Vercel ',
         Icon: RiComputerLine
     },
     {
         title: 'frontend Styles',
-        about: 'TailwindCSS,  Sass/Scss ,Css, Bootstrap',
+        about: 'Css, Sass/Scss , TailwindCSS, Styled-Components, Bootstrap',
         Icon: RiComputerLine
     },
     {
         title: 'backend developer',
-        about: 'Strapi, Next.JS',
+        about: 'Node.JS, Nest.JS',
         Icon: FaServer
     },
     {
@@ -29,14 +29,18 @@ export const Services = [
 ]
 
 export const Languages = [
-
     {
-        name: 'Next.JS',
-        level: '80%',
+        name: 'Javascript.JS',
+        level: '70%',
         Icon: BsCircle
     },
     {
         name: 'react.JS',
+        level: '80%',
+        Icon: BsCircle
+    },
+     {
+        name: 'next.JS',
         level: '80%',
         Icon: BsCircle
     },
@@ -46,17 +50,17 @@ export const Languages = [
         Icon: BsCircle
     },
     {
-        name: 'Javascript.JS',
-        level: '70%',
-        Icon: BsCircle
-    },
-    {
         name: 'Html',
         level: '80%',
         Icon: BsCircle
     },
     {
-        name: 'Strapi',
+        name: 'Node.JS',
+        level: '30%',
+        Icon: BsCircle
+    },
+     {
+        name: 'Nest.JS',
         level: '30%',
         Icon: BsCircle
     },
@@ -99,8 +103,18 @@ export const Tools = [
         level: '95%',
         Icon: BsCircle
     },
+      {
+        name: 'Apollo-client',
+        level: '95%',
+        Icon: BsCircle
+    },
+     {
+        name: 'React-Hook-Form',
+        level: '95%',
+        Icon: BsCircle
+    },
     {
-        name: 'UI/UX',
+        name: 'UI/UX, Figma',
         level: '95%',
         Icon: BsCircle
     },
