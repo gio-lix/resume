@@ -181,8 +181,8 @@ export const Projects = [
         name: 'shop_B',
         description: 'shoppin with graphql',
         image_url: "/images/store-g27e66c331_1920.jpg",
-        deploy_url: 'https://react-app-toolkit-graphql.vercel.app/all',
-        github_url: 'https://github.com/gio-lix/react-app-toolkit-graphql.git',
+        deploy_url: 'https://scandi-web.vercel.app/all',
+        github_url: 'https://github.com/gio-lix/scandi-web.git',
         key_techs: ['react', 'graphql', 'tailwind'],
         category: ['react', "graphql"]
     },
