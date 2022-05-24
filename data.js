@@ -135,6 +135,70 @@ export const Tools = [
     },
 ]
 
+export const GamesData = [
+    {
+        id: 6,
+        name: "chess",
+        description: "chess game",
+        image_url: "/images/chess.png",
+        deploy_url: "https://game-chess1.vercel.app/",
+        github_url: "https://github.com/gio-lix/game_chess1.git",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 1,
+        name: "paddle",
+        description: "paddle game",
+        image_url: "/images/paddle.png",
+        deploy_url: "https://game-gio-lix.vercel.app/",
+        github_url: "https://github.com/gio-lix/game_paddle.git",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 2,
+        name: "drag drop",
+        description: "drag drop game",
+        image_url: "/images/drag-drop.png",
+        deploy_url: "https://game-drag-drop.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-drag_drop.git",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 3,
+        name: "choice",
+        description: "choice game",
+        image_url: "/images/choice.png",
+        deploy_url: "https://game-choice.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-choice.git",
+        key_techs: ["javascript.js"],
+        category: ["javascript.js"]
+    },
+    {
+        id: 4,
+        name: "paddle2",
+        description: "paddle2 game",
+        image_url: "/images/paddle_2.png",
+        deploy_url: "https://game-padding.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-padding.git",
+        key_techs: ["javascript.js"],
+        category: ["javascript.js"]
+    },
+    {
+        id: 5,
+        name: "snake",
+        description: "paddle2 game",
+        image_url: "/images/snake.png",
+        deploy_url: "https://game-nake-catch-fruit.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-nake_catch_fruit.git",
+        key_techs: ["javascript.js"],
+        category: ["javascript.js"]
+    },
+
+]
+
 export const Projects = [
       {
         id: 1,
