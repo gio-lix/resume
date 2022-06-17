@@ -259,6 +259,16 @@ export const Projects = [
         github_url: 'https://github.com/gio-lix/geo-journal-typescript',
         key_techs: ['next.js', 'tailwind'],
         category: ['react', "nest"]
+    },
+    {
+        id: 3,
+        name: 'web3-typescript',
+        description: 'This content ',
+        image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
+        deploy_url: 'https://sanity-9riub5idz-gio-lix.vercel.app',
+        github_url: 'https://github.com/gio-lix/sanityNFT.git',
+        key_techs: ['react.js', 'tailwind'],
+        category: ['react', "sanity"]
     }
    
 ]
