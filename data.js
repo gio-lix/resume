@@ -261,7 +261,7 @@ export const Projects = [
         category: ['react', "nest"]
     },
     {
-        id: 3,
+        id: 7,
         name: 'web3-typescript',
         description: 'This content ',
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
