@@ -136,6 +136,7 @@ export const Tools = [
 ]
 
 export const GamesData = [
+
     {
         id: 6,
         name: "chess",
@@ -202,13 +203,13 @@ export const GamesData = [
 export const Projects = [
       {
         id: 1,
-        name: 'graphql-commercial',
-        description: 'eccom-graphql content ',
-        image_url: "/images/apparel.jpg",
-        deploy_url: 'https://eccom-geaphql.vercel.app',
-        github_url: 'https://github.com/gio-lix/eccom-geaphql.git',
-        key_techs: ['strapi', 'apollo-client', 'next.js', 'tailwind'],
-        category: ['strapi', 'graphql', "apollo-clien", "next.js"]
+        name: 'blogs',
+        description: 'posts',
+        image_url: "/images/posts.webp",
+        deploy_url: 'https://blog-front-delta.vercel.app/',
+        github_url: 'https://github.com/gio-lix/blog-front.git',
+        key_techs: ['node', 'express', 'scss', "typescript"],
+        category: ['node', 'express', 'scss'],
     },
     {
         id: 2,
@@ -222,6 +223,16 @@ export const Projects = [
     },
     {
         id: 3,
+        name: 'commercial-typescrip',
+        description: 'This content ',
+        image_url: "/images/comm.jpg",
+        deploy_url: 'https://commercial-app-typescript.vercel.app',
+        github_url: 'https://github.com/gio-lix/commercial-app-typescript.git',
+        key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
+        category: ['next', "Redux", "Redux-Saga"]
+    },
+    {
+        id: 4,
         name: 'Filter-State',
         description: 'filter function ',
         image_url: "/images/state.webp",
@@ -230,8 +241,18 @@ export const Projects = [
         key_techs: ['next.js', 'tailwind'],
         category: ['react']
     },
+    {
+        id: 5,
+        name: 'hotel',
+        description: 'hotel',
+        image_url: "/images/hotels.jpg",
+        deploy_url: 'https://filter-data.vercel.app',
+        github_url: 'https://hotel-front.vercel.app/',
+        key_techs: ['node.js', 'express', "scss", "typescript"],
+        category: ['react']
+    },
       {
-        id: 4,
+        id: 6,
         name: 'gothic shop',
         description: 'this project ',
         image_url: "/images/goth.jpg",
@@ -241,7 +262,7 @@ export const Projects = [
         category: ['react', "strapi"]
     },
           {
-        id: 5,
+        id: 7,
         name: 'shop_B',
         description: 'shoppin with graphql',
         image_url: "/images/store-g27e66c331_1920.jpg",
@@ -251,7 +272,7 @@ export const Projects = [
         category: ['react', "graphql"]
     },
       {
-        id: 6,
+        id: 8,
         name: 'geo-Journal-typescript',
         description: 'This content ',
         image_url: "/images/geo.jpg",
@@ -261,7 +282,7 @@ export const Projects = [
         category: ['react', "nest"]
     },
     {
-        id: 7,
+        id: 9,
         name: 'web3-typescript',
         description: 'This content ',
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
