@@ -211,6 +211,7 @@ export const Projects = [
         key_techs: ['node', 'express', 'scss', "typescript"],
         category: ['node', 'express', 'scss'],
     },
+
     {
         id: 2,
         name: 'commercial-typescrip',
@@ -223,16 +224,6 @@ export const Projects = [
     },
     {
         id: 3,
-        name: 'commercial-typescrip',
-        description: 'This content ',
-        image_url: "/images/comm.jpg",
-        deploy_url: 'https://commercial-app-typescript.vercel.app',
-        github_url: 'https://github.com/gio-lix/commercial-app-typescript.git',
-        key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
-        category: ['next', "Redux", "Redux-Saga"]
-    },
-    {
-        id: 4,
         name: 'Filter-State',
         description: 'filter function ',
         image_url: "/images/state.webp",
@@ -242,7 +233,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 5,
+        id: 4,
         name: 'hotel',
         description: 'hotel',
         image_url: "/images/hotels.jpg",
@@ -252,6 +243,16 @@ export const Projects = [
         category: ['react']
     },
       {
+        id: 5,
+        name: 'likes-blogs',
+        description: 'likes-blogs',
+        image_url: "/images/hearts.png",
+        deploy_url: 'https://blogs-posts.vercel.app/',
+        github_url: 'https://github.com/gio-lix/blogs-posts.git',
+        key_techs: ['React.js', 'tailwind'],
+        category: ['react']
+    },
+    {
         id: 6,
         name: 'gothic shop',
         description: 'this project ',
