@@ -252,18 +252,9 @@ export const Projects = [
         key_techs: ['React.js', 'tailwind'],
         category: ['react']
     },
-    {
-        id: 6,
-        name: 'gothic shop',
-        description: 'this project ',
-        image_url: "/images/goth.jpg",
-        deploy_url: 'https://gothicshop123.vercel.app',
-        github_url: 'https://github.com/gio-lix/gothicshop123.git',
-        key_techs: ['Strapi', 'next.js', 'tailwind'],
-        category: ['react', "strapi"]
-    },
+   
           {
-        id: 7,
+        id: 6,
         name: 'shop_B',
         description: 'shoppin with graphql',
         image_url: "/images/store-g27e66c331_1920.jpg",
@@ -273,7 +264,7 @@ export const Projects = [
         category: ['react', "graphql"]
     },
       {
-        id: 8,
+        id: 7,
         name: 'geo-Journal-typescript',
         description: 'This content ',
         image_url: "/images/geo.jpg",
@@ -283,7 +274,7 @@ export const Projects = [
         category: ['react', "nest"]
     },
     {
-        id: 9,
+        id: 8,
         name: 'web3-typescript',
         description: 'This content ',
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
@@ -291,6 +282,16 @@ export const Projects = [
         github_url: 'https://github.com/gio-lix/sanityNFT.git',
         key_techs: ['react.js', 'tailwind'],
         category: ['react', "sanity"]
+    },
+     {
+        id: 9,
+        name: 'gothic shop',
+        description: 'this project ',
+        image_url: "/images/goth.jpg",
+        deploy_url: 'https://gothicshop123.vercel.app',
+        github_url: 'https://github.com/gio-lix/gothicshop123.git',
+        key_techs: ['Strapi', 'next.js', 'tailwind'],
+        category: ['react', "strapi"]
     }
    
 ]
