@@ -237,8 +237,8 @@ export const Projects = [
         name: 'hotel',
         description: 'hotel',
         image_url: "/images/hotels.jpg",
-        deploy_url: 'https://hotel-frontend-94d1dmk94-gio-lix.vercel.app',
-        github_url: 'https://github.com/gio-lix/hotel-frontend.git',
+        deploy_url: 'https://hotel-frontend-ten.vercel.app',
+        github_url: 'git@github.com:gio-lix/hotel-frontend.git',
         key_techs: ['node.js', 'express', "scss", "typescript"],
         category: ['react']
     },
