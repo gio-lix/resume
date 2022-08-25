@@ -20,6 +20,7 @@ export interface IProject {
     key_techs: string[]
 }
 
-export type Category = 'react'| 'next' | 'strapi' | 'nest'
+export type Category = 'react'| 'next'
+    // | 'strapi' | 'nest'
 
 export {}

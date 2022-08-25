@@ -31,7 +31,7 @@ export const Services = [
 export const Languages = [
     {
         name: 'Javascript.JS',
-        level: '70%',
+        level: '60%',
         Icon: BsCircle
     },
     {
@@ -60,13 +60,13 @@ export const Languages = [
         Icon: BsCircle
     },
      {
-        name: 'Nest.JS',
-        level: '30%',
+        name: 'Express.JS',
+        level: '50%',
         Icon: BsCircle
     },
     {
         name: 'CSS',
-        level: '80%',
+        level: '90%',
         Icon: BsCircle
     },
     {
@@ -144,7 +144,17 @@ export const GamesData = [
         image_url: "/images/chess.png",
         deploy_url: "https://game-chess1.vercel.app/",
         github_url: "https://github.com/gio-lix/game_chess1.git",
-        key_techs: ["react.js"],
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 7,
+        name: "chess",
+        description: "chess game",
+        image_url: "/images/Screenshot.png",
+        deploy_url: "https://minesweeper-steel.vercel.app/",
+        github_url: "git@github.com:gio-lix/minesweeper.git",
+        key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
     {
@@ -201,35 +211,35 @@ export const GamesData = [
 ]
 
 export const Projects = [
-      {
-        id: 1,
-        name: 'blogs',
-        description: 'posts',
-        image_url: "/images/posts.webp",
-        deploy_url: 'https://blog-front-delta.vercel.app/',
-        github_url: 'https://github.com/gio-lix/blog-front.git',
-        key_techs: ['node', 'express', 'scss', "typescript"],
-        category: ['node', 'express', 'scss'],
-    },
+    //   {
+    //     id: 1,
+    //     name: 'blogs',
+    //     description: 'posts',
+    //     image_url: "/images/posts.webp",
+    //     deploy_url: 'https://blog-front-delta.vercel.app/',
+    //     github_url: 'https://github.com/gio-lix/blog-front.git',
+    //     key_techs: ['node', 'express', 'scss', "typescript"],
+    //     category: ['node', 'express', 'scss'],
+    // },
 
-    {
-        id: 2,
-        name: 'commercial-typescrip',
-        description: 'This content ',
-        image_url: "/images/comm.jpg",
-        deploy_url: 'https://commercial-app-typescript.vercel.app',
-        github_url: 'https://github.com/gio-lix/commercial-app-typescript.git',
-        key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
-        category: ['next', "Redux", "Redux-Saga"]
-    },
+    // {
+    //     id: 2,
+    //     name: 'commercial-typescrip',
+    //     description: 'This content ',
+    //     image_url: "/images/comm.jpg",
+    //     deploy_url: 'https://commercial-app-typescript.vercel.app',
+    //     github_url: 'https://github.com/gio-lix/commercial-app-typescript.git',
+    //     key_techs: ['redux', 'redux-saga', 'next.js', 'tailwind'],
+    //     category: ['next', "Redux", "Redux-Saga"]
+    // },
     {
         id: 3,
-        name: 'Filter-State',
-        description: 'filter function ',
-        image_url: "/images/state.webp",
-        deploy_url: 'https://filter-data.vercel.app',
-        github_url: 'https://github.com/gio-lix/filterData',
-        key_techs: ['next.js', 'tailwind'],
+        name: 'drag-drop',
+        description: 'drag drop blogs',
+        image_url: "/images/drag.png",
+        deploy_url: 'https://board-blog.vercel.app/login',
+        github_url: 'git@github.com:gio-lix/board-blog.git',
+        key_techs: ['react.js', 'typescript.js' ,'scss'],
         category: ['react']
     },
     {
@@ -261,18 +271,18 @@ export const Projects = [
         deploy_url: 'https://scandi-web.vercel.app/all',
         github_url: 'https://github.com/gio-lix/scandi-web.git',
         key_techs: ['react', 'graphql', 'tailwind'],
-        category: ['react', "graphql"]
+        category: ['react']
     },
-      {
-        id: 7,
-        name: 'geo-Journal-typescript',
-        description: 'This content ',
-        image_url: "/images/geo.jpg",
-        deploy_url: 'https://geo-journal-typescript.vercel.app',
-        github_url: 'https://github.com/gio-lix/geo-journal-typescript',
-        key_techs: ['next.js', 'tailwind'],
-        category: ['react', "nest"]
-    },
+    //   {
+    //     id: 7,
+    //     name: 'geo-Journal-typescript',
+    //     description: 'This content ',
+    //     image_url: "/images/geo.jpg",
+    //     deploy_url: 'https://geo-journal-typescript.vercel.app',
+    //     github_url: 'https://github.com/gio-lix/geo-journal-typescript',
+    //     key_techs: ['next.js', 'tailwind'],
+    //     category: ['react', "nest"]
+    // },
     {
         id: 8,
         name: 'web3-typescript',
@@ -280,19 +290,19 @@ export const Projects = [
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
         deploy_url: 'https://sanity-9riub5idz-gio-lix.vercel.app',
         github_url: 'https://github.com/gio-lix/sanityNFT.git',
-        key_techs: ['react.js', 'tailwind'],
-        category: ['react', "sanity"]
+        key_techs: ['next.js', 'tailwind'],
+        category: ['next']
     },
-     {
-        id: 9,
-        name: 'gothic shop',
-        description: 'this project ',
-        image_url: "/images/goth.jpg",
-        deploy_url: 'https://gothicshop123.vercel.app',
-        github_url: 'https://github.com/gio-lix/gothicshop123.git',
-        key_techs: ['Strapi', 'next.js', 'tailwind'],
-        category: ['react', "strapi"]
-    }
+    //  {
+    //     id: 9,
+    //     name: 'gothic shop',
+    //     description: 'this project ',
+    //     image_url: "/images/goth.jpg",
+    //     deploy_url: 'https://gothicshop123.vercel.app',
+    //     github_url: 'https://github.com/gio-lix/gothicshop123.git',
+    //     key_techs: ['Strapi', 'next.js', 'tailwind'],
+    //     category: ['react', "strapi"]
+    // }
    
 ]
 

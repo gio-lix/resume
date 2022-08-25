@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
      <>
         <div>
-            <div className='h-28 flex flex-col justify-center'>
+            <div className=' h-28 flex flex-col justify-center'>
                 <p>Giorgi</p>
                 <p>Mosemgvdlishvili</p>
             </div>
@@ -30,12 +30,12 @@ const Sidebar = () => {
                     </a>
                 </Link>
             </div>
-            <div className='dark:bg-gray-600 wy-5 py-4 bg-gray-200' style={{marginLeft: "-0.5rem", marginRight: "-0.5rem"}}>
+            <div className='overflow-hidden dark:bg-gray-600 wy-5 py-4 bg-gray-200' style={{marginLeft: "-0.5rem", marginRight: "-0.5rem"}}>
                 <div className='flex items-center justify-center space-x-2'>
                     <GoLocation />
                     <span>Tbilisi, Georgia</span>
                 </div>
-                <p className='my-2 text-sm'>gmosemgvdlishvili28@gmail.com</p>
+                <p className='my-2 text-xs	'>gmosemgvdlishvili28@gmail.com</p>
                 <p className='TEL: my-2 text-sm'>+995 595 55 28 64</p>
             </div>
             <div className='flex flex-col items-center my-4'>
