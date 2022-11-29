@@ -16,9 +16,7 @@ const Sidebar = () => {
                 <div className="w-auto flex justify-end px-5">
                     <button
                         onClick={changeTheme}
-                        className='relative bg-gray-600 w-5 h-6  mt-10
-                     w-8/12 rounded-full  flex items-center justify-center
-                      py-1 px-5 text-white  whitespace-nowrap'>
+                        className='relative bg-gray-600 w-5 h-6  mt-10 rounded-full  flex items-center justify-center py-1 px-5 text-white  whitespace-nowrap'>
                     <span className={` absolute right-1 ${theme === "light" && "left-1"}`}>
                         {theme === "light" ? (
                             <BsFillMoonFill className=" text-blue-50 "/>
