@@ -41,40 +41,41 @@ const ProjectCart: FC<{
             <p className='my-2 text-center'>{name}</p>
             {showDetail === id && (
                 <motion.div
-                    className='absolute top-0 left-0 z-20 grid md:grid-cols-2 p-2
-                    h-auto w-full gap-x-12 dark:text-white dark:bg-dark-100  text-black bg-gray-100 '>
+                    className='absolute shadow-2xl top-0 left-0 z-20 grid md:grid-cols-2 p-2
+                    border border-gray-300 dark:border-gray-600
+                    h-auto w-full gap-x-12 dark:text-white dark:bg-dark-100  text-black bg-indigo-100 '>
                     <motion.div variants={stagger} initial="initial" animate="animate">
                         <motion.div variants={fadeInUp}>
                             <Image width={300}
-                                   height={150}
+                                   height={180}
                                    layout='responsive'
                                    quality='100' src={image_url} alt={name}
-                                   className="object-contain"
+                                   className="object-contain h-full"
                             />
-                        </motion.div>
-
-                        <motion.div variants={fadeInUp} className='flex justify-center my-4 space-x-3'>
-                            <Link href={github_url}>
-                                <a className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-100 dark:bg-dark-200'>
-                                    <AiFillGithub /> <span>Github</span>
-                                </a>
-                            </Link>
-                            <Link href={deploy_url}>
-                                <a className='flex items-center px-4 py-2 space-x-3 text-lg bg-gray-100 dark:bg-dark-200'>
-                                    <AiFillProject /> <span>project</span>
-                                </a>
-                            </Link>
                         </motion.div>
                     </motion.div>
                     <motion.div variants={stagger} initial="initial" animate="animate">
                         <motion.div variants={fadeInUp}>
-                            <h2  className='mb-3 text-xl font-medium md:text-2xl'>{name}</h2>
+                            <h2  className='mb-3 text-xl  font-medium md:text-2xl'>{name}</h2>
                             <h3 className='mb-3 font-medium'>{description}</h3>
                         </motion.div>
                         <motion.div variants={fadeInUp} className='flex flex-wrap mt-5 space-x-2 text-sm tracking-wider'>
                             {key_techs.map(tech => (
-                                <span className='px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounded' key={tech}>{tech}</span>
+                                <span className='px-2 py-1  my-1 bg-white dark:bg-dark-200 rounded' key={tech}>{tech}</span>
                             ))}
+                        </motion.div>
+                        {/*check*/}
+                        <motion.div variants={fadeInUp} className='flex justify-start my-4 space-x-3'>
+                            <Link href={github_url}>
+                                <a className='flex items-center px-4 py-2 space-x-3 text-lg bg-white dark:bg-dark-200'>
+                                    <AiFillGithub /> <span>Github</span>
+                                </a>
+                            </Link>
+                            <Link href={deploy_url}>
+                                <a className='flex items-center px-4 py-2 space-x-3 text-lg bg-white dark:bg-dark-200'>
+                                    <AiFillProject /> <span>project</span>
+                                </a>
+                            </Link>
                         </motion.div>
                     </motion.div>
                     <button

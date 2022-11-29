@@ -18,7 +18,7 @@ export const Services = [
     },
     {
         title: 'backend developer',
-        about: 'Node.JS, Nest.JS',
+        about: 'Node.JS, Express.JS',
         Icon: FaServer
     },
     {

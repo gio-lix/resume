@@ -32,8 +32,8 @@ const Navbar = () => {
     }, [])
     return (
      <>
-        <div className='flex justify-between px-5 py-3 my-3 '>
-            <span className='font-bold text-green-400   text-lg border-b-4'>{active}</span>
+         <span className='font-bold text-green-400  text-center  text-lg border-b-2 pb-1 m-2'>{active}</span>
+         <div className='flex justify-center  px-5 py-3 my-3 '>
             <div className='font-lg flex space-x-4'>
                 <NavItem active={active} setActive={setActive} name='About' route='/' />
                 <NavItem active={active} setActive={setActive} name='Projects' route='/projects' />
