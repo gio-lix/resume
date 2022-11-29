@@ -3,9 +3,14 @@ import {Services} from '../data'
 import ServiceCart from "../components/ServiceCart";
 import { motion } from "framer-motion";
 import {fadeInUp, routeAnimation, stagger} from "../animations";
+import Head from "next/head";
+import React from "react";
 const Home: NextPage = () => {
   return (
     <>
+        <Head>
+            <title>About</title>
+        </Head>
         <motion.div variants={routeAnimation}
                     initial="initial"
                     animate="animate"

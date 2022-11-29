@@ -137,7 +137,7 @@ export const GamesData = [
         description: "player",
         image_url: "/images/num_16.png",
         deploy_url: "https://music-player-smoky-sigma.vercel.app/",
-        github_url: "git@github.com:gio-lix/music-player.git",
+        github_url: "https://github.com/gio-lix/music-player",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -147,7 +147,7 @@ export const GamesData = [
         description: "player",
         image_url: "/images/num_15.png",
         deploy_url: "https://music-payier-2.vercel.app/",
-        github_url: "git@github.com:gio-lix/music-payier-2.git",
+        github_url: "https://github.com/gio-lix/music-payier-2",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -157,7 +157,7 @@ export const GamesData = [
         description: "slider",
         image_url: "/images/num_14.png",
         deploy_url: "https://silide-app.vercel.app/",
-        github_url: "git@github.com:gio-lix/silide-app.git",
+        github_url: "https://github.com/gio-lix/silide-app",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -167,7 +167,7 @@ export const GamesData = [
         description: "register_progress_bar",
         image_url: "/images/num_13.png",
         deploy_url: "https://register-app-rho.vercel.app/#",
-        github_url: "git@github.com:gio-lix/register-app.git",
+        github_url: "https://github.com/gio-lix/register-app",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -177,7 +177,7 @@ export const GamesData = [
         description: "chess game",
         image_url: "/images/chess.png",
         deploy_url: "https://game-chess1.vercel.app/",
-        github_url: "https://github.com/gio-lix/game_chess1.git",
+        github_url: "https://github.com/gio-lix/game_chess1",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -187,7 +187,7 @@ export const GamesData = [
         description: "infinity scroll",
         image_url: "/images/num_17.png",
         deploy_url: "https://infinity-images-scoll.vercel.app/",
-        github_url: "git@github.com:gio-lix/infinity_images_scoll.git",
+        github_url: "https://github.com/gio-lix/infinity_images_scoll",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -197,7 +197,7 @@ export const GamesData = [
         description: "scroll",
         image_url: "/images/num_18.png",
         deploy_url: "https://scroll-site-gamma.vercel.app/",
-        github_url: "git@github.com:gio-lix/scroll_site.git",
+        github_url: "https://github.com/gio-lix/scroll_site",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
     },
@@ -207,7 +207,7 @@ export const GamesData = [
         description: "estate",
         image_url: "/images/num_12.png",
         deploy_url: "https://estate-navy.vercel.app/",
-        github_url: "git@github.com:gio-lix/Estate.git",
+        github_url: "https://github.com/gio-lix/Estate",
         key_techs: ["react.js"],
         category: ["react.js"]
     },
@@ -217,7 +217,7 @@ export const GamesData = [
         description: "progress bar",
         image_url: "/images/num_19.png",
         deploy_url: "https://progress-bar-phi.vercel.app/",
-        github_url: "git@github.com:gio-lix/progress_bar.git",
+        github_url: "https://github.com/gio-lix/progress_bar",
         key_techs: ["react.js"],
         category: ["react.js"]
     },
@@ -227,7 +227,7 @@ export const GamesData = [
         description: "pagination_hooks",
         image_url: "/images/num_11.png",
         deploy_url: "https://pagiantion-react-todos.vercel.app/",
-        github_url: "git@github.com:gio-lix/pagiantion-react-todos.git",
+        github_url: "https://github.com/gio-lix/pagiantion-react-todos",
         key_techs: ["react.js"],
         category: ["react.js"]
     },
@@ -237,7 +237,7 @@ export const GamesData = [
         description: "chess game",
         image_url: "/images/num_20.png",
         deploy_url: "https://sidebar-menu-0.vercel.app/",
-        github_url: "git@github.com:gio-lix/sidebar_menu.git",
+        github_url: "https://github.com/gio-lix/sidebar_menu",
         key_techs: ["react.js"],
         category: ["react.js"]
     },
@@ -333,7 +333,7 @@ export const Projects = [
         description: 'This content ',
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
         deploy_url: 'https://sanity-9riub5idz-gio-lix.vercel.app',
-        github_url: 'https://github.com/gio-lix/sanityNFT.git',
+        github_url: 'https://github.com/gio-lix/sanityNFT',
         key_techs: ['next.js', 'tailwind'],
         category: ['next']
     },
