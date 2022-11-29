@@ -295,15 +295,13 @@ export const GamesData = [
 ]
 
 export const Projects = [
-
-
     {
         id: 3,
         name: 'drag-drop',
         description: 'drag drop blogs',
         image_url: "/images/drag.png",
         deploy_url: 'https://board-blog.vercel.app/login',
-        github_url: 'git@github.com:gio-lix/board-blog.git',
+        github_url: 'https://github.com/gio-lix/board-blog',
         key_techs: ['react.js',"redux-toolkit", 'typescript.js' ,'scss'],
         category: ['react']
     },
@@ -313,7 +311,7 @@ export const Projects = [
         description: 'hotel',
         image_url: "/images/num_10.png",
         deploy_url: 'https://hotel-frontend-ten.vercel.app/',
-        github_url: 'git@github.com:gio-lix/hotel-frontend.git',
+        github_url: 'https://github.com/gio-lix/hotel-frontend',
         key_techs: ['react.js', "scss", "typescript"],
         category: ['react']
     },
@@ -340,4 +338,3 @@ export const Projects = [
 
 ]
 
-export const Categories = "Next"|"React"|"Strapi"|"Node"
