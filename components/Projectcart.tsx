@@ -44,7 +44,7 @@ const ProjectCart: FC<{
             {showDetail === id && (
                 <motion.div
                     className='fixed shadow-2xl top-[20%] -translate-x-[50%] left-[50%]  z-20 grid md:grid-cols-2 p-2 border border-gray-300 dark:border-gray-600
-                    h-auto w-[70%] md:w-[70%] gap-x-12 dark:text-white dark:bg-dark-100  text-black bg-indigo-100 '
+                    h-auto w-[70%] md:w-[60%] gap-x-12 dark:text-white dark:bg-dark-100  text-black bg-indigo-100 '
                 >
                     <motion.div
                         variants={stagger}
@@ -60,7 +60,7 @@ const ProjectCart: FC<{
                             />
                         </motion.div>
                     </motion.div>
-                    <motion.div variants={stagger} initial="initial" animate="animate">
+                    <motion.div className="flex flex-col justify-between" variants={stagger} initial="initial" animate="animate">
                         <motion.div variants={fadeInUp}>
                             <h2  className='mb-3 text-xl text-center md:text-left font-medium md:text-2xl'>{name}</h2>
                             <h3 className='mb-3 text-center md:text-left font-medium'>{description}</h3>
