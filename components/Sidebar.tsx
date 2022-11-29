@@ -13,7 +13,7 @@ const Sidebar = () => {
     return (
         <>
             <div>
-                <div className="w-full flex justify-end px-5">
+                <div className="w-auto flex justify-end px-5">
                     <button
                         onClick={changeTheme}
                         className='relative bg-gray-600 w-5 h-6  mt-10
