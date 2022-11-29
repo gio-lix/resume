@@ -23,8 +23,6 @@ const ProjectNavbar = (props: any) => {
             <NavItem value='all' {...props}/>
             <NavItem value='react' {...props}/>
             <NavItem value='next' {...props}/>
-            {/*<NavItem value='nest' {...props}/>*/}
-            {/*<NavItem value='strapi' {...props}/>*/}
         </div>
     );
 };

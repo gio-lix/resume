@@ -28,7 +28,7 @@ const Navbar = () => {
         if (pathname === '/' ) setActive('about')
         if (pathname === '/projects' ) setActive('projects')
         if (pathname === '/resume' ) setActive('resume')
-        if (pathname === '/games' ) setActive('games')
+        if (pathname === '/all' ) setActive('all')
     }, [])
     return (
      <>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <NavItem active={active} setActive={setActive} name='About' route='/' />
                 <NavItem active={active} setActive={setActive} name='Projects' route='/projects' />
                 <NavItem active={active} setActive={setActive} name='Resume' route='/resume' />
-                <NavItem active={active} setActive={setActive} name='games' route='/games' />
+                <NavItem active={active} setActive={setActive} name='all' route='/all' />
             </div>
         </div>
      </>

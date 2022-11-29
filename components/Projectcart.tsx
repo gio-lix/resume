@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {FC} from 'react';
 import {IProject} from "../types";
 import Link from 'next/link'
 import {AiFillProject} from "react-icons/ai";
@@ -27,14 +27,17 @@ const ProjectCart: FC<{
           showDetail
       }) => {
     return (
-        <div className=''>
+        <div >
             <Image
                 width={300}
                 height={150}
                 layout='responsive'
                 quality='100'
                 onClick={() => setShowDetail(id)}
-                src={image_url} alt={name} className='cursor-pointer'/>
+                src={image_url}
+                alt={name}
+                className='cursor-pointer object-contain'
+            />
             <p className='my-2 text-center'>{name}</p>
             {showDetail === id && (
                 <motion.div
@@ -45,7 +48,9 @@ const ProjectCart: FC<{
                             <Image width={300}
                                    height={150}
                                    layout='responsive'
-                                   quality='100' src={image_url} alt={name}/>
+                                   quality='100' src={image_url} alt={name}
+                                   className="object-contain"
+                            />
                         </motion.div>
 
                         <motion.div variants={fadeInUp} className='flex justify-center my-4 space-x-3'>

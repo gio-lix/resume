@@ -3,10 +3,8 @@ import {motion} from 'framer-motion';
 import {GamesData } from "../data"
 import React, {useState} from "react";
 import ProjectCart from "../components/Projectcart";
-import {Projects as projects} from '../data'
-import ProjectsNavbar from "../components/ProjectsNavbar";
 
-const Games = () => {
+const All = () => {
     const [showDetail, setShowDetail] = useState<number | null>(null)
 
     return (
@@ -27,4 +25,4 @@ const Games = () => {
         </motion.div>
     )
 }
-export default Games
+export default All

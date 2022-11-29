@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <motion.div variants={routeAnimation}
                     initial="initial"
                     animate="animate"
-                    exit="exit" className='flex flex-col px-4   flex-grow'>
+                    exit="exit" className='flex flex-col px-4 flex-grow'>
             <div className='h-10'>  </div>
             <div
                 style={{marginLeft: "-1rem", marginRight: "-1rem"}}
