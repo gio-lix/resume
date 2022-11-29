@@ -300,7 +300,7 @@ export const Projects = [
         name: 'drag-drop',
         description: 'drag drop blogs',
         image_url: "/images/drag.png",
-        deploy_url: 'https://board-blog.vercel.app/login',
+        deploy_url: 'https://board-blog.vercel.app/',
         github_url: 'https://github.com/gio-lix/board-blog',
         key_techs: ['react.js',"redux-toolkit", 'typescript.js' ,'scss'],
         category: ['react']
