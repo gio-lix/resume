@@ -144,6 +144,16 @@ export const Projects = [
         category: ['react']
     },
     {
+        id: 2,
+        name: 'blog-2',
+        description: 'blog-2',
+        image_url: "/images/num_7.png",
+        deploy_url: 'https://aaaapppp12-app.onrender.com/',
+        github_url: 'https://github.com/gio-lix/chat-2',
+        key_techs: ['react.js',"redux", 'typescript.js' ,'scss'],
+        category: ['react']
+    },
+    {
         id: 3,
         name: 'hotel',
         description: 'hotel',
