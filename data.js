@@ -130,173 +130,11 @@ export const Tools = [
     },
 ]
 
-export const GamesData = [
-    {
-        id: 1,
-        name: "player",
-        description: "player",
-        image_url: "/images/num_16.png",
-        deploy_url: "https://music-player-smoky-sigma.vercel.app/",
-        github_url: "https://github.com/gio-lix/music-player",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 2,
-        name: "player",
-        description: "player",
-        image_url: "/images/num_15.png",
-        deploy_url: "https://music-payier-2.vercel.app/",
-        github_url: "https://github.com/gio-lix/music-payier-2",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 3,
-        name: "slider",
-        description: "slider",
-        image_url: "/images/num_14.png",
-        deploy_url: "https://silide-app.vercel.app/",
-        github_url: "https://github.com/gio-lix/silide-app",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 4,
-        name: "register progress bar",
-        description: "register_progress_bar",
-        image_url: "/images/num_13.png",
-        deploy_url: "https://register-app-rho.vercel.app/#",
-        github_url: "https://github.com/gio-lix/register-app",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 6,
-        name: "chess",
-        description: "chess game",
-        image_url: "/images/chess.png",
-        deploy_url: "https://game-chess1.vercel.app/",
-        github_url: "https://github.com/gio-lix/game_chess1",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 17,
-        name: "infinity scroll",
-        description: "infinity scroll",
-        image_url: "/images/num_17.png",
-        deploy_url: "https://infinity-images-scoll.vercel.app/",
-        github_url: "https://github.com/gio-lix/infinity_images_scoll",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 18,
-        name: "scroll",
-        description: "scroll",
-        image_url: "/images/num_18.png",
-        deploy_url: "https://scroll-site-gamma.vercel.app/",
-        github_url: "https://github.com/gio-lix/scroll_site",
-        key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 19,
-        name: "estate",
-        description: "estate",
-        image_url: "/images/num_12.png",
-        deploy_url: "https://estate-navy.vercel.app/",
-        github_url: "https://github.com/gio-lix/Estate",
-        key_techs: ["react.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 20,
-        name: "progress bar",
-        description: "progress bar",
-        image_url: "/images/num_19.png",
-        deploy_url: "https://progress-bar-phi.vercel.app/",
-        github_url: "https://github.com/gio-lix/progress_bar",
-        key_techs: ["react.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 21,
-        name: "pagination hooks",
-        description: "pagination_hooks",
-        image_url: "/images/num_11.png",
-        deploy_url: "https://pagiantion-react-todos.vercel.app/",
-        github_url: "https://github.com/gio-lix/pagiantion-react-todos",
-        key_techs: ["react.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 22,
-        name: "chess",
-        description: "chess game",
-        image_url: "/images/num_20.png",
-        deploy_url: "https://sidebar-menu-0.vercel.app/",
-        github_url: "https://github.com/gio-lix/sidebar_menu",
-        key_techs: ["react.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 23,
-        name: "paddle",
-        description: "paddle game",
-        image_url: "/images/paddle.png",
-        deploy_url: "https://game-gio-lix.vercel.app/",
-        github_url: "https://github.com/gio-lix/game_paddle.git",
-        key_techs: ["react.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 24,
-        name: "drag drop",
-        description: "drag drop game",
-        image_url: "/images/drag-drop.png",
-        deploy_url: "https://game-drag-drop.vercel.app/",
-        github_url: "https://github.com/gio-lix/game-drag_drop.git",
-        key_techs: ["react.js"],
-        category: ["react.js"]
-    },
-    {
-        id: 5,
-        name: "choice",
-        description: "choice game",
-        image_url: "/images/choice.png",
-        deploy_url: "https://game-choice.vercel.app/",
-        github_url: "https://github.com/gio-lix/game-choice.git",
-        key_techs: ["javascript.js"],
-        category: ["javascript.js"]
-    },
-    {
-        id: 26,
-        name: "paddle2",
-        description: "paddle2 game",
-        image_url: "/images/paddle_2.png",
-        deploy_url: "https://game-padding.vercel.app/",
-        github_url: "https://github.com/gio-lix/game-padding.git",
-        key_techs: ["javascript.js"],
-        category: ["javascript.js"]
-    },
-    {
-        id: 27,
-        name: "snake",
-        description: "paddle2 game",
-        image_url: "/images/snake.png",
-        deploy_url: "https://game-nake-catch-fruit.vercel.app/",
-        github_url: "https://github.com/gio-lix/game-nake_catch_fruit.git",
-        key_techs: ["javascript.js"],
-        category: ["javascript.js"]
-    },
 
-]
 
 export const Projects = [
     {
-        id: 3,
+        id: 1,
         name: 'drag-drop',
         description: 'drag drop blogs',
         image_url: "/images/drag.png",
@@ -306,7 +144,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 4,
+        id: 3,
         name: 'hotel',
         description: 'hotel',
         image_url: "/images/num_10.png",
@@ -325,8 +163,8 @@ export const Projects = [
         key_techs: ['react.js', "scss", "redux-toolkit", "typescript"],
         category: ['react']
     },
-      {
-        id: 6,
+    {
+        id: 7,
         name: 'likes-blogs',
         description: 'likes-blogs',
         image_url: "/images/num_9.png",
@@ -337,6 +175,16 @@ export const Projects = [
     },
     {
         id: 8,
+        name: "player",
+        description: "player",
+        image_url: "/images/num_16.png",
+        deploy_url: "https://music-player-smoky-sigma.vercel.app/",
+        github_url: "https://github.com/gio-lix/music-player",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 9,
         name: 'web3-typescript',
         description: 'This content ',
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
@@ -345,6 +193,155 @@ export const Projects = [
         key_techs: ['next.js', 'tailwind'],
         category: ['next']
     },
-
+    {
+        id: 11,
+        name: "player",
+        description: "player",
+        image_url: "/images/num_15.png",
+        deploy_url: "https://music-payier-2.vercel.app/",
+        github_url: "https://github.com/gio-lix/music-payier-2",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 13,
+        name: "slider",
+        description: "slider",
+        image_url: "/images/num_14.png",
+        deploy_url: "https://silide-app.vercel.app/",
+        github_url: "https://github.com/gio-lix/silide-app",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 15,
+        name: "register progress bar",
+        description: "register_progress_bar",
+        image_url: "/images/num_13.png",
+        deploy_url: "https://register-app-rho.vercel.app/#",
+        github_url: "https://github.com/gio-lix/register-app",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 17,
+        name: "chess",
+        description: "chess game",
+        image_url: "/images/chess.png",
+        deploy_url: "https://game-chess1.vercel.app/",
+        github_url: "https://github.com/gio-lix/game_chess1",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 19,
+        name: "infinity scroll",
+        description: "infinity scroll",
+        image_url: "/images/num_17.png",
+        deploy_url: "https://infinity-images-scoll.vercel.app/",
+        github_url: "https://github.com/gio-lix/infinity_images_scoll",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 21,
+        name: "scroll",
+        description: "scroll",
+        image_url: "/images/num_18.png",
+        deploy_url: "https://scroll-site-gamma.vercel.app/",
+        github_url: "https://github.com/gio-lix/scroll_site",
+        key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 23,
+        name: "estate",
+        description: "estate",
+        image_url: "/images/num_12.png",
+        deploy_url: "https://estate-navy.vercel.app/",
+        github_url: "https://github.com/gio-lix/Estate",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 25,
+        name: "progress bar",
+        description: "progress bar",
+        image_url: "/images/num_19.png",
+        deploy_url: "https://progress-bar-phi.vercel.app/",
+        github_url: "https://github.com/gio-lix/progress_bar",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 27,
+        name: "pagination hooks",
+        description: "pagination_hooks",
+        image_url: "/images/num_11.png",
+        deploy_url: "https://pagiantion-react-todos.vercel.app/",
+        github_url: "https://github.com/gio-lix/pagiantion-react-todos",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 29,
+        name: "chess",
+        description: "chess game",
+        image_url: "/images/num_20.png",
+        deploy_url: "https://sidebar-menu-0.vercel.app/",
+        github_url: "https://github.com/gio-lix/sidebar_menu",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 31,
+        name: "paddle",
+        description: "paddle game",
+        image_url: "/images/paddle.png",
+        deploy_url: "https://game-gio-lix.vercel.app/",
+        github_url: "https://github.com/gio-lix/game_paddle.git",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 33,
+        name: "drag drop",
+        description: "drag drop game",
+        image_url: "/images/drag-drop.png",
+        deploy_url: "https://game-drag-drop.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-drag_drop.git",
+        key_techs: ["react.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 35,
+        name: "choice",
+        description: "choice game",
+        image_url: "/images/choice.png",
+        deploy_url: "https://game-choice.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-choice.git",
+        key_techs: ["javascript.js"],
+        category: ["javascript.js"]
+    },
+    {
+        id: 37,
+        name: "paddle2",
+        description: "paddle2 game",
+        image_url: "/images/paddle_2.png",
+        deploy_url: "https://game-padding.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-padding.git",
+        key_techs: ["javascript.js"],
+        category: ["javascript.js"]
+    },
+    {
+        id: 39,
+        name: "snake",
+        description: "paddle2 game",
+        image_url: "/images/snake.png",
+        deploy_url: "https://game-nake-catch-fruit.vercel.app/",
+        github_url: "https://github.com/gio-lix/game-nake_catch_fruit.git",
+        key_techs: ["javascript.js"],
+        category: ["javascript.js"]
+    },
 ]
 
