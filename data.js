@@ -315,8 +315,18 @@ export const Projects = [
         key_techs: ['react.js', "scss", "typescript"],
         category: ['react']
     },
-      {
+    {
         id: 5,
+        name: 'note',
+        description: 'note',
+        image_url: "/images/num_8.png",
+        deploy_url: 'https://note-ikw02kzlh-gio-lix.vercel.app/',
+        github_url: 'https://github.com/gio-lix/note-app',
+        key_techs: ['react.js', "scss", "redux-toolkit", "typescript"],
+        category: ['react']
+    },
+      {
+        id: 6,
         name: 'likes-blogs',
         description: 'likes-blogs',
         image_url: "/images/num_9.png",
