@@ -56,7 +56,6 @@ const Sidebar = () => {
                             onClick={() => window.open('mailto:gmosemgvdlishvili28@gmail.com')}
                     >Email Me
                     </button>
-
                 </div>
             </div>
         </>
