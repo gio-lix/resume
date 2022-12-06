@@ -37,7 +37,7 @@ const Sidebar = () => {
                             <AiFillGithub className='w-6 h-6'/>
                         </a>
                     </Link>
-                    <Link href='https://www.linkedin.com/in/gio-mosemgvdlishvili-757b42106'>
+                    <Link href='https://www.linkedin.com/in/gorgi-mosemgvdlishvili-b8525b259/'>
                         <a>
                             <AiFillLinkedin className='w-6 h-6'/>
                         </a>
