@@ -174,6 +174,16 @@ export const Projects = [
         category: ['react']
     },
     {
+        id: 6,
+        name: 'scroll-animation',
+        description: 'scroll-animation',
+        image_url: "/images/num_6.png",
+        deploy_url: 'https://scroll-front-app-navigation.vercel.app/',
+        github_url: 'https://github.com/gio-lix/scroll-front-app-navigation',
+        key_techs: ['react.js', "css", "responsive"],
+        category: ['react']
+    },
+    {
         id: 7,
         name: 'likes-blogs',
         description: 'likes-blogs',
