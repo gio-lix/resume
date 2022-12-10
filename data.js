@@ -36,7 +36,7 @@ export const Languages = [
     },
     {
         name: 'react.JS',
-        level: '80%',
+        level: '85%',
         Icon: BsCircle
     },
      {
@@ -61,7 +61,7 @@ export const Languages = [
     },
      {
         name: 'Express.JS',
-        level: '50%',
+        level: '60%',
         Icon: BsCircle
     },
     {
@@ -90,7 +90,7 @@ export const Tools = [
     },
       {
         name: 'graphql',
-        level: '70%',
+        level: '60%',
         Icon: BsCircle
     },
     {
@@ -105,7 +105,7 @@ export const Tools = [
     },
       {
         name: 'Apollo-client',
-        level: '95%',
+        level: '80%',
         Icon: BsCircle
     },
      {
