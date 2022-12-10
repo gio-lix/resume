@@ -155,14 +155,15 @@ export const Projects = [
     },
     {
         id: 3,
-        name: 'hotel',
-        description: 'hotel',
-        image_url: "/images/num_10.png",
-        deploy_url: 'https://hotel-frontend-ten.vercel.app/',
-        github_url: 'https://github.com/gio-lix/hotel-frontend',
-        key_techs: ['react.js', "scss", "typescript"],
-        category: ['react']
+        name: 'register',
+        description: 'register form',
+        image_url: "/images/num_5.png",
+        deploy_url: 'https://register-formik-next-cotimrmlo-gio-lix.vercel.app',
+        github_url: 'https://github.com/gio-lix/register-formik-next.js',
+        key_techs: ['next.js', 'typescript.js' ,'formik', "tailwindcss"],
+        category: ['next']
     },
+
     {
         id: 5,
         name: 'note',
@@ -212,6 +213,16 @@ export const Projects = [
         github_url: 'https://github.com/gio-lix/sanityNFT',
         key_techs: ['next.js', 'tailwind'],
         category: ['next']
+    },
+    {
+        id: 10,
+        name: 'hotel',
+        description: 'hotel',
+        image_url: "/images/num_10.png",
+        deploy_url: 'https://hotel-frontend-ten.vercel.app/',
+        github_url: 'https://github.com/gio-lix/hotel-frontend',
+        key_techs: ['react.js', "scss", "typescript"],
+        category: ['react']
     },
     {
         id: 11,
