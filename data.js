@@ -215,16 +215,6 @@ export const Projects = [
         category: ['next']
     },
     {
-        id: 10,
-        name: 'hotel',
-        description: 'hotel',
-        image_url: "/images/num_10.png",
-        deploy_url: 'https://hotel-frontend-ten.vercel.app/',
-        github_url: 'https://github.com/gio-lix/hotel-frontend',
-        key_techs: ['react.js', "scss", "typescript"],
-        category: ['react']
-    },
-    {
         id: 11,
         name: "player",
         description: "player",
@@ -243,6 +233,16 @@ export const Projects = [
         github_url: "https://github.com/gio-lix/silide-app",
         key_techs: ["react.js", "typescript.js"],
         category: ["react.js"]
+    },
+    {
+        id: 14,
+        name: 'hotel',
+        description: 'hotel',
+        image_url: "/images/num_10.png",
+        deploy_url: 'https://hotel-frontend-ten.vercel.app/',
+        github_url: 'https://github.com/gio-lix/hotel-frontend',
+        key_techs: ['react.js', "scss", "typescript"],
+        category: ['react']
     },
     {
         id: 15,
