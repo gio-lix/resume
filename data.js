@@ -135,6 +135,16 @@ export const Tools = [
 export const Projects = [
     {
         id: 1,
+        name: 'chat',
+        description: 'chat with socket.io-client',
+        image_url: "/images/img_30.png",
+        deploy_url: 'https://user-chat-app-frontend.onrender.com/',
+        github_url: 'https://github.com/gio-lix/user-chat-app-front',
+        key_techs: ['react.js',"redux-toolkit", 'typescript.js', "socket.io-client" ,'scss'],
+        category: ['react']
+    },
+    {
+        id: 5,
         name: 'drag-drop',
         description: 'drag drop blogs',
         image_url: "/images/drag.png",
@@ -144,7 +154,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 2,
+        id: 10,
         name: 'blog-2',
         description: 'blog-2',
         image_url: "/images/num_7.png",
@@ -154,7 +164,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 3,
+        id: 20,
         name: 'register',
         description: 'register form',
         image_url: "/images/num_5.png",
@@ -165,7 +175,7 @@ export const Projects = [
     },
 
     {
-        id: 5,
+        id: 30,
         name: 'note',
         description: 'note',
         image_url: "/images/num_8.png",
@@ -175,7 +185,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 6,
+        id: 40,
         name: 'scroll-animation',
         description: 'scroll-animation',
         image_url: "/images/num_6.png",
@@ -185,7 +195,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 7,
+        id: 50,
         name: 'likes-blogs',
         description: 'likes-blogs',
         image_url: "/images/num_9.png",
@@ -195,7 +205,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 8,
+        id: 60,
         name: "player",
         description: "player",
         image_url: "/images/num_16.png",
@@ -205,7 +215,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 9,
+        id: 70,
         name: 'web3-typescript',
         description: 'This content ',
         image_url: "/images/ee298e2fb78803f3226dcde22f1f2a8d69f56fad-600x600.png",
@@ -215,7 +225,7 @@ export const Projects = [
         category: ['next']
     },
     {
-        id: 11,
+        id: 80,
         name: "player",
         description: "player",
         image_url: "/images/num_15.png",
@@ -225,7 +235,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 13,
+        id: 90,
         name: "slider",
         description: "slider",
         image_url: "/images/num_14.png",
@@ -235,7 +245,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 14,
+        id: 100,
         name: 'hotel',
         description: 'hotel',
         image_url: "/images/num_10.png",
@@ -245,7 +255,7 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 15,
+        id: 110,
         name: "register progress bar",
         description: "register_progress_bar",
         image_url: "/images/num_13.png",
@@ -255,7 +265,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 17,
+        id: 120,
         name: "chess",
         description: "chess game",
         image_url: "/images/chess.png",
@@ -265,7 +275,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 19,
+        id: 130,
         name: "infinity scroll",
         description: "infinity scroll",
         image_url: "/images/num_17.png",
@@ -275,7 +285,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 21,
+        id: 140,
         name: "scroll",
         description: "scroll",
         image_url: "/images/num_18.png",
@@ -285,7 +295,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 23,
+        id: 150,
         name: "estate",
         description: "estate",
         image_url: "/images/num_12.png",
@@ -295,7 +305,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 25,
+        id: 160,
         name: "progress bar",
         description: "progress bar",
         image_url: "/images/num_19.png",
@@ -305,7 +315,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 27,
+        id: 170,
         name: "pagination hooks",
         description: "pagination_hooks",
         image_url: "/images/num_11.png",
@@ -315,7 +325,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 29,
+        id: 180,
         name: "chess",
         description: "chess game",
         image_url: "/images/num_20.png",
@@ -325,7 +335,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 31,
+        id: 190,
         name: "paddle",
         description: "paddle game",
         image_url: "/images/paddle.png",
@@ -335,7 +345,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 33,
+        id: 200,
         name: "drag drop",
         description: "drag drop game",
         image_url: "/images/drag-drop.png",
@@ -345,7 +355,7 @@ export const Projects = [
         category: ["react.js"]
     },
     {
-        id: 35,
+        id: 210,
         name: "choice",
         description: "choice game",
         image_url: "/images/choice.png",
@@ -355,7 +365,7 @@ export const Projects = [
         category: ["javascript.js"]
     },
     {
-        id: 37,
+        id: 220,
         name: "paddle2",
         description: "paddle2 game",
         image_url: "/images/paddle_2.png",
@@ -365,7 +375,7 @@ export const Projects = [
         category: ["javascript.js"]
     },
     {
-        id: 39,
+        id: 230,
         name: "snake",
         description: "paddle2 game",
         image_url: "/images/snake.png",
@@ -373,6 +383,56 @@ export const Projects = [
         github_url: "https://github.com/gio-lix/game-nake_catch_fruit.git",
         key_techs: ["javascript.js"],
         category: ["javascript.js"]
+    },
+    {
+        id: 240,
+        name: "card",
+        description: "card",
+        image_url: "/images/img_25.png",
+        deploy_url: "https://63a2ac42eb2cf3332d37018a--sensational-pastelito-3da243.netlify.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/blob/card01/README.md",
+        key_techs: ["html", "css"],
+        category: ["html"]
+    },
+    {
+        id: 250,
+        name: "card",
+        description: "card",
+        image_url: "/images/img_23.png",
+        deploy_url: "https://63a2ad8e738b443c4a5c92d3--inquisitive-quokka-af17ce.netlify.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/blob/card01/README.md",
+        key_techs: ["html", "css"],
+        category: ["html"]
+    },
+    {
+        id: 260,
+        name: "card",
+        description: "card",
+        image_url: "/images/img_24.png",
+        deploy_url: "https://javascript-html-css-zdcg.vercel.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/tree/cards-03",
+        key_techs: ["html", "css"],
+        category: ["html"]
+    },
+    {
+        id: 270,
+        name: "card",
+        description: "card",
+        image_url: "/images/img_21.png",
+        deploy_url: "https://639dcb1a89c20f1a85a4ce3c--papaya-lolly-2d1f20.netlify.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/tree/cards-04",
+        key_techs: ["html", "css"],
+        category: ["html"]
+    },
+    {
+        id: 280,
+        name: "card",
+        description: "card",
+        image_url: "/images/img_22.png",
+        deploy_url: "https://639e211de97dd35ea198a286--calm-belekoy-5e945b.netlify.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/tree/cards-05",
+        key_techs: ["html", "css"],
+        category: ["html"]
     },
 ]
 
