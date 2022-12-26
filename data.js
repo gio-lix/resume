@@ -165,6 +165,16 @@ export const Projects = [
     },
     {
         id: 20,
+        name: 'note',
+        description: 'note',
+        image_url: "/images/num_8.png",
+        deploy_url: 'https://note-ikw02kzlh-gio-lix.vercel.app/',
+        github_url: 'https://github.com/gio-lix/note-app',
+        key_techs: ['react.js', "scss", "redux-toolkit", "typescript"],
+        category: ['react']
+    },
+    {
+        id: 30,
         name: 'register',
         description: 'register form',
         image_url: "/images/num_5.png",
@@ -174,16 +184,7 @@ export const Projects = [
         category: ['next']
     },
 
-    {
-        id: 30,
-        name: 'note',
-        description: 'note',
-        image_url: "/images/num_8.png",
-        deploy_url: 'https://note-ikw02kzlh-gio-lix.vercel.app/',
-        github_url: 'https://github.com/gio-lix/note-app',
-        key_techs: ['react.js', "scss", "redux-toolkit", "typescript"],
-        category: ['react']
-    },
+
     {
         id: 40,
         name: 'scroll-animation',
@@ -232,6 +233,16 @@ export const Projects = [
         deploy_url: "https://music-payier-2.vercel.app/",
         github_url: "https://github.com/gio-lix/music-payier-2",
         key_techs: ["react.js", "typescript.js"],
+        category: ["react.js"]
+    },
+    {
+        id: 85,
+        name: "Products Details",
+        description: "player",
+        image_url: "/images/img_31.png",
+        deploy_url: "https://react-app-small-projects.vercel.app/",
+        github_url: "https://github.com/gio-lix/react-app-small-projects/tree/details-of-products",
+        key_techs: ["react.js", "typescript.js", "css", "Responsive"],
         category: ["react.js"]
     },
     {

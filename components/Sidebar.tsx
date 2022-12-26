@@ -31,7 +31,7 @@ const Sidebar = () => {
                     <p>Mosemgvdlishvili</p>
                 </div>
                 <p className='px-2 py-1 my-3 '>Web Developer</p>
-                <div className='flex justify-center space-x-3 my-5 text-green-300 w-9/12 md:w-full'>
+                <div className='flex justify-center space-x-3 my-5 text-green-300  m-auto w-9/12 md:w-full'>
                     <Link href='https://github.com/gio-lix'>
                         <a download='name' className='flex items-center'>
                             <AiFillGithub className='w-6 h-6'/>
