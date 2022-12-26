@@ -416,6 +416,16 @@ export const Projects = [
         category: ["html"]
     },
     {
+        id: 255,
+        name: "card",
+        description: "card",
+        image_url: "/images/img_32.png",
+        deploy_url: "https://63a9ff7335a1fb64bf9f8006--exquisite-beijinho-611ae5.netlify.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/tree/card-06",
+        key_techs: ["html", "css"],
+        category: ["html"]
+    },
+    {
         id: 260,
         name: "card",
         description: "card",
