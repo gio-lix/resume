@@ -183,7 +183,16 @@ export const Projects = [
         key_techs: ['next.js', 'typescript.js' ,'formik', "tailwindcss"],
         category: ['next']
     },
-
+    {
+        id: 39,
+        name: 'Front Page',
+        description: 'front page',
+        image_url: "/images/img_33.png",
+        deploy_url: 'https://react-app-small-projects-hcw4-8jlik0sfr-gio-lix.vercel.app/',
+        github_url: 'https://github.com/gio-lix/react-app-small-projects/tree/front-page',
+        key_techs: ['react.js', "scss",'typeScript', "responsive"],
+        category: ['react']
+    },
 
     {
         id: 40,
