@@ -215,6 +215,16 @@ export const Projects = [
         category: ['react']
     },
     {
+        id: 58,
+        name: "player",
+        description: "player",
+        image_url: "/images/player.png",
+        deploy_url: "https://preeminent-lamington-9a165a.netlify.app/",
+        github_url: "https://github.com/gio-lix/react-app-small-projects/tree/radio-player",
+        key_techs: ["react.js", "scss", "typescript.js"],
+        category: ["react"]
+    },
+    {
         id: 60,
         name: "player",
         description: "player",
@@ -222,7 +232,7 @@ export const Projects = [
         deploy_url: "https://music-player-smoky-sigma.vercel.app/",
         github_url: "https://github.com/gio-lix/music-player",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 70,
@@ -242,7 +252,7 @@ export const Projects = [
         deploy_url: "https://music-payier-2.vercel.app/",
         github_url: "https://github.com/gio-lix/music-payier-2",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 85,
@@ -252,7 +262,7 @@ export const Projects = [
         deploy_url: "https://react-app-small-projects.vercel.app/",
         github_url: "https://github.com/gio-lix/react-app-small-projects/tree/details-of-products",
         key_techs: ["react.js", "typescript.js", "css", "Responsive"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 90,
@@ -262,7 +272,7 @@ export const Projects = [
         deploy_url: "https://silide-app.vercel.app/",
         github_url: "https://github.com/gio-lix/silide-app",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 100,
@@ -282,7 +292,7 @@ export const Projects = [
         deploy_url: "https://register-app-rho.vercel.app/#",
         github_url: "https://github.com/gio-lix/register-app",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 120,
@@ -292,7 +302,7 @@ export const Projects = [
         deploy_url: "https://game-chess1.vercel.app/",
         github_url: "https://github.com/gio-lix/game_chess1",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 130,
@@ -302,7 +312,7 @@ export const Projects = [
         deploy_url: "https://infinity-images-scoll.vercel.app/",
         github_url: "https://github.com/gio-lix/infinity_images_scoll",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 140,
@@ -312,7 +322,7 @@ export const Projects = [
         deploy_url: "https://scroll-site-gamma.vercel.app/",
         github_url: "https://github.com/gio-lix/scroll_site",
         key_techs: ["react.js", "typescript.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 150,
@@ -322,7 +332,7 @@ export const Projects = [
         deploy_url: "https://estate-navy.vercel.app/",
         github_url: "https://github.com/gio-lix/Estate",
         key_techs: ["react.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 160,
@@ -332,7 +342,7 @@ export const Projects = [
         deploy_url: "https://progress-bar-phi.vercel.app/",
         github_url: "https://github.com/gio-lix/progress_bar",
         key_techs: ["react.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 170,
@@ -342,7 +352,7 @@ export const Projects = [
         deploy_url: "https://pagiantion-react-todos.vercel.app/",
         github_url: "https://github.com/gio-lix/pagiantion-react-todos",
         key_techs: ["react.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 180,
@@ -352,7 +362,7 @@ export const Projects = [
         deploy_url: "https://sidebar-menu-0.vercel.app/",
         github_url: "https://github.com/gio-lix/sidebar_menu",
         key_techs: ["react.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 190,
@@ -362,7 +372,7 @@ export const Projects = [
         deploy_url: "https://game-gio-lix.vercel.app/",
         github_url: "https://github.com/gio-lix/game_paddle.git",
         key_techs: ["react.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 200,
@@ -372,7 +382,7 @@ export const Projects = [
         deploy_url: "https://game-drag-drop.vercel.app/",
         github_url: "https://github.com/gio-lix/game-drag_drop.git",
         key_techs: ["react.js"],
-        category: ["react.js"]
+        category: ["react"]
     },
     {
         id: 210,
@@ -382,7 +392,7 @@ export const Projects = [
         deploy_url: "https://game-choice.vercel.app/",
         github_url: "https://github.com/gio-lix/game-choice.git",
         key_techs: ["javascript.js"],
-        category: ["javascript.js"]
+        category: ["javascript"]
     },
     {
         id: 220,
@@ -392,7 +402,7 @@ export const Projects = [
         deploy_url: "https://game-padding.vercel.app/",
         github_url: "https://github.com/gio-lix/game-padding.git",
         key_techs: ["javascript.js"],
-        category: ["javascript.js"]
+        category: ["javascript"]
     },
     {
         id: 230,
@@ -402,7 +412,7 @@ export const Projects = [
         deploy_url: "https://game-nake-catch-fruit.vercel.app/",
         github_url: "https://github.com/gio-lix/game-nake_catch_fruit.git",
         key_techs: ["javascript.js"],
-        category: ["javascript.js"]
+        category: ["javascript"]
     },
     {
         id: 240,
