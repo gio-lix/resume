@@ -184,15 +184,16 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 30,
-        name: 'register',
-        description: 'register form',
-        image_url: "/images/num_5.png",
-        deploy_url: 'https://register-formik-next-cotimrmlo-gio-lix.vercel.app',
-        github_url: 'https://github.com/gio-lix/register-formik-next.js',
-        key_techs: ['next.js', 'typescript.js' ,'formik', "tailwindcss"],
-        category: ['next']
+        id: 29,
+        name: "player",
+        description: "player",
+        image_url: "/images/player.png",
+        deploy_url: "https://preeminent-lamington-9a165a.netlify.app/",
+        github_url: "https://github.com/gio-lix/react-app-small-projects/tree/radio-player",
+        key_techs: ["react.js", "scss", "typescript.js"],
+        category: ["react"]
     },
+
     {
         id: 39,
         name: 'Front Page',
@@ -224,16 +225,7 @@ export const Projects = [
         key_techs: ['React.js', "redux-toolkit", 'css'],
         category: ['react']
     },
-    {
-        id: 58,
-        name: "player",
-        description: "player",
-        image_url: "/images/player.png",
-        deploy_url: "https://preeminent-lamington-9a165a.netlify.app/",
-        github_url: "https://github.com/gio-lix/react-app-small-projects/tree/radio-player",
-        key_techs: ["react.js", "scss", "typescript.js"],
-        category: ["react"]
-    },
+
     {
         id: 60,
         name: "player",
@@ -252,6 +244,16 @@ export const Projects = [
         deploy_url: 'https://sanity-9riub5idz-gio-lix.vercel.app',
         github_url: 'https://github.com/gio-lix/sanityNFT',
         key_techs: ['next.js', 'tailwind'],
+        category: ['next']
+    },
+    {
+        id: 71,
+        name: 'register',
+        description: 'register form',
+        image_url: "/images/num_5.png",
+        deploy_url: 'https://register-formik-next-cotimrmlo-gio-lix.vercel.app',
+        github_url: 'https://github.com/gio-lix/register-formik-next.js',
+        key_techs: ['next.js', 'typescript.js' ,'formik', "tailwindcss"],
         category: ['next']
     },
     {
