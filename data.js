@@ -193,7 +193,16 @@ export const Projects = [
         key_techs: ["react.js", "scss", "typescript.js"],
         category: ["react"]
     },
-
+    {
+        id: 38,
+        name: 'Scroll Front Page',
+        description: 'scroll front page',
+        image_url: "/images/scroll.png",
+        deploy_url: 'https://react-scroll-front-page-responsive.vercel.app/',
+        github_url: 'https://github.com/gio-lix/react-scroll-front-page-responsive',
+        key_techs: ['react.js', "tailwind css",'typeScript', "responsive"],
+        category: ['react']
+    },
     {
         id: 39,
         name: 'Front Page',
