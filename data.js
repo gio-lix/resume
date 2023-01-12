@@ -485,6 +485,7 @@ export const Projects = [
         key_techs: ["html", "css"],
         category: ["html"]
     },
+
     {
         id: 236,
         name: "Side Bar",
@@ -553,6 +554,16 @@ export const Projects = [
         deploy_url: "https://63a2ad8e738b443c4a5c92d3--inquisitive-quokka-af17ce.netlify.app/",
         github_url: "https://github.com/gio-lix/javascript-html-css/blob/card01/README.md",
         key_techs: ["html", "css"],
+        category: ["html"]
+    },
+    {
+        id: 251,
+        name: "verify",
+        description: "verify card",
+        image_url: "/images/verify.png",
+        deploy_url: "https://63c05516197af855bfd6146d--hilarious-torte-13ebdf.netlify.app/",
+        github_url: "https://github.com/gio-lix/javascript-html-css/blob/verify-card-01/index.html",
+        key_techs: ["html", "css", "javascript"],
         category: ["html"]
     },
     {
