@@ -16,7 +16,7 @@ const Projects = () => {
 
     useEffect(() => {
         const handleClick = (e: any) => {
-            if (!e.path.includes(ref.current)) setShowDetail(null)
+            if (!e.path.includes(ref?.current)) setShowDetail(null)
         }
         window.addEventListener("click", handleClick)
         return () => {window.removeEventListener("click", handleClick)}

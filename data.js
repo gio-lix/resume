@@ -234,6 +234,16 @@ export const Projects = [
         key_techs: ['React.js', "redux-toolkit", 'css'],
         category: ['react']
     },
+    {
+        id: 51,
+        name: 'words',
+        description: 'correct letters',
+        image_url: "/images/img_46.png",
+        deploy_url: 'https://create-words-app.vercel.app/',
+        github_url: 'https://github.com/gio-lix/create-words-app',
+        key_techs: ['React.js', "redux-toolkit", 'css'],
+        category: ['react']
+    },
 
     {
         id: 60,
