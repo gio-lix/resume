@@ -29,7 +29,6 @@ const Projects = () => {
             return
         }
 
-        console.log("category - ",category)
         const newArray = projects.filter(el => el.category.includes(category))
         setProjectsItem(newArray)
         setActive(category)

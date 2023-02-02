@@ -235,7 +235,17 @@ export const Projects = [
         category: ['react']
     },
     {
-        id: 51,
+        id: 52,
+        name: 'tic tac',
+        description: 'tic tac toc',
+        image_url: "/images/img_47.png",
+        deploy_url: 'https://ubiquitous-dusk-f2893e.netlify.app/',
+        github_url: 'https://github.com/gio-lix/react-games-typescript-app/tree/tic-tac-toe',
+        key_techs: ['React.js', 'css'],
+        category: ['react']
+    },
+    {
+        id: 55,
         name: 'words',
         description: 'correct letters',
         image_url: "/images/img_46.png",
